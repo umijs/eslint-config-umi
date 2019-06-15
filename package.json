@@ -1,0 +1,30 @@
+{
+  "name": "eslint-config-umi",
+  "version": "1.0.0",
+  "description": "eslint config for umi",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umijs/eslint-config-umi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/umijs/eslint-config-umi/issues"
+  },
+  "homepage": "https://github.com/umijs/eslint-config-umi#readme",
+  "dependencies": {
+    "@umijs/fabric": "^1.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^3.5.2"
+  }
+}
